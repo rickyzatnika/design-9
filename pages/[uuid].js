@@ -54,9 +54,9 @@ const GetUniqueCode = ({ guest }) => {
         <h1 className='mb-3 text-stone-600 titles'>UNDANGAN PERNIKAHAN</h1>
         <div className='flex items-center flex-col justify-center relative'>
           <motion.div initial={{ y: -50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.4 }} className="absolute top-2 left-0 right-0 z-50 w-fit mx-auto flex text-stone-800/80 pt-1 gap-1 items-center">
-            <h1 className='text-lg sm:text-xl '>Yanwar</h1>
+            <h1 className='text-lg sm:text-xl '>Rudy</h1>
             <p className='font-[parisienne] text-4xl'>&</p>
-            <h2 className='text-lg sm:text-xl '>Asri</h2>
+            <h2 className='text-lg sm:text-xl '>Astrid</h2>
           </motion.div>
           <div className=" border-2 border-stone-600/80 p-3 shadow-inner shadow-stone-500/80 relative">
             <div className='absolute w-full h-full bg-gradient-to-t top-0 z-40 left-0 from-[#FFE4B5]/60 via-transparent to-[#F5F5DC]/90' />
