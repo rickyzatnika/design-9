@@ -93,15 +93,12 @@ const CommentForm = ({ guest }) => {
 
           <button
             type="submit"
-            className="rounded w-full lg:w-fit mx-auto py-2 px-8 mt-3 bg-gradient-to-tr from-[#FFE4B5]/60 via-[#d1b88c] to-[#FFE4B5]/60 shadow text-stone-500 transition-all duration-300 ease-linear hover:scale-95 "
+            className="rounded text-sm sm:text-md w-full lg:w-fit mx-auto py-2 px-8 mt-3 bg-[#e2c798]  shadow text-stone-500 transition-all duration-300 ease-linear hover:scale-95 "
           >
             {loading ? (
-              <div className="flex items-center justify-center gap-2">
-                <p>loading...</p>
-                <div className="animate-spin  border-b-white/20 w-3 h-3 rounded-full"></div>
-              </div>
+              "loading..."
             ) : (
-              <p className="text-sm sm:text-md">Kirim</p>
+              "Kirim"
             )}
           </button>
         </form>

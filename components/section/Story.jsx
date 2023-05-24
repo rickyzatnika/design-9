@@ -48,7 +48,7 @@ const Story = () => {
           <motion.span
             initial={{ x: 80 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 0.7 }}
+            transition={{ duration: 0.8 }}
             className="p-1 text-3xl alex border-b border-stone-500/50 "
           >
             Short
@@ -56,7 +56,7 @@ const Story = () => {
           <motion.span
             initial={{ x: -120 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.6 }}
             className="alex text-5xl"
           >
             {" "}
@@ -70,9 +70,9 @@ const Story = () => {
               key={i}
             >
               <motion.div
-                initial={{ y: 30 }}
+                initial={{ y: 40 }}
                 whileInView={{ y: 0 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.6 }}
                 className="img relative"
               >
                 <Image
@@ -81,7 +81,7 @@ const Story = () => {
                   width={450}
                   height={350}
                   objectFit="cover"
-                  className=""
+                  className="rounded-tl-3xl rounded-br-3xl"
                   priority
                 />
               </motion.div>
@@ -90,21 +90,20 @@ const Story = () => {
                   <motion.h1
                     initial={{ y: 40 }}
                     whileInView={{ y: 0 }}
-                    transition={{ duration: 0.4 }}
+                    transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                     className="text-xl titles font-semibold text-stone-500/80"
                   >
                     {post?.title}
                   </motion.h1>
-                  <motion.div
+                  <motion.p
                     initial={{ y: 50 }}
                     whileInView={{ y: 0 }}
                     transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
-                    className="text-stone-500/70 brush leading-relaxed text-sm"
+                    className="text-stone-500/70  leading-relaxed text-sm"
                   >
                     {post?.description}
-                  </motion.div>
+                  </motion.p>
                 </div>
               </div>
             </div>

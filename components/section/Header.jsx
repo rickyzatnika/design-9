@@ -12,15 +12,9 @@ const Header = () => {
         className="w-full overflow-hidden min-h-screen flex flex-col relative items-center justify-center"
         id="header"
       >
-        <motion.div
-          initial={{ y: 700 }}
-          whileInView={{ y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="w-full animates min-h-screen absolute top-0  "
-        >
+        <div className="w-full animates min-h-screen absolute top-0  ">
           <Image
-            src="/img/gallery-12.png"
+            src="/img/gallery/gallery-3.png"
             alt=""
             width={350}
             height={800}
@@ -31,13 +25,13 @@ const Header = () => {
             placeholder="blur"
             priority
           />
-        </motion.div>
-        <div className="w-full h-screen bg-gradient-to-t from-black  via-stone-700/50  to-black absolute top-0 z-10"></div>
+        </div>
+        <div className="w-full h-screen bg-gradient-to-t from-black  via-stone-900/50  to-black absolute top-0 z-10"></div>
         <div className="w-full h-full relative z-20 flex flex-col items-center space-y-8 justify-between">
           <motion.h1
             initial={{ y: -50 }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.7 }}
             viewport={{ once: true }}
             className="text-stone-200/80 titles tracking-widest text-xl sm:text-xl"
           >
@@ -56,7 +50,7 @@ const Header = () => {
             <motion.p
               initial={{ scale: 2 }}
               whileInView={{ scale: 1 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.7 }}
               viewport={{ once: true }}
               className="font-[parisienne] text-6xl text-stone-400"
             >
@@ -66,7 +60,7 @@ const Header = () => {
               initial={{ y: -50 }}
               whileInView={{ y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
+              transition={{ duration: 0.6 }}
               className="text-5xl   px-2 font-semibold bg-gradient-to-r from-stone-500  via-[#b4b49a] font-[parisienne] to-stone-500  bg-clip-text text-transparent py-2"
             >
               Astrid
@@ -75,7 +69,7 @@ const Header = () => {
           <motion.div
             initial={{ y: 50 }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.7 }}
             className="flex flex-col relative z-50 items-center gap-1 justify-center"
           >
             <div className="mouse"></div>

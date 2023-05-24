@@ -36,8 +36,7 @@ const Event = ({ guest }) => {
         const timeoutId = setTimeout(() => {
           Swal.fire({
             text: "Terima Kasih Atas Perhatiannya 😊",
-            showConfirmButton: false,
-            showCloseButton: true,
+            showConfirmButton: true,
           });
           setLoading(false);
           setShowAttend(false);
@@ -47,8 +46,7 @@ const Event = ({ guest }) => {
         const timeoutId = setTimeout(() => {
           Swal.fire({
             text: "Terima Kasih Atas Perhatiannya 😊",
-            showConfirmButton: false,
-            showCloseButton: true,
+            showConfirmButton: true,
           });
           setLoading(false);
           setShowAttend(false);

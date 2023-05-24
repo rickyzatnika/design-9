@@ -18,10 +18,10 @@ const Profile = () => {
       <div className="w-full relative  flex flex-col items-center justify-center  h-full  z-30">
         <div className="flex shadow-inner overflow-hidden w-fit bg-[#F5F5DC] p-6 sm:p-8 px-10 sm:px-14 shadow-black/20 flex-col justify-center gap-0 items-center relative mx-auto">
           <motion.div
-            initial={{ y: 10 }}
+            initial={{ y: 40 }}
             whileInView={{ y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.7 }}
             className="animated-element absolute -bottom-8 -left-12 w-full"
           >
             <Image
@@ -34,10 +34,10 @@ const Profile = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ y: 30 }}
+            initial={{ y: 60 }}
             whileInView={{ y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.6 }}
             className="relative overflow-hidden"
           >
             <div className="absolute left-0 right-0 w-full h-full z-10 bg-gradient-to-t from-[#F5F5DC]/70 via-transparent to-[#F5F5DC]/70 " />
@@ -52,10 +52,10 @@ const Profile = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 30 }}
+            initial={{ y: 50 }}
             whileInView={{ y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.7 }}
             className="animated-element flex flex-col gap-2 items-center justify-center px-4"
           >
             <h2 className="titles text-2xl text-[#473727] capitalize ">
@@ -83,10 +83,10 @@ const Profile = () => {
         <div className="font-[parisienne] text-6xl my-3 text-stone-700 ">&</div>
         <div className="relative  overflow-hidden shadow-inner bg-[#F5F5DC] p-6 sm:p-8 px-10 sm:px-14 w-fit shadow-black/20  flex flex-col items-center justify-center gap-0">
           <motion.div
-            initial={{ y: 10 }}
+            initial={{ y: 40 }}
             whileInView={{ y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.6 }}
             className="absolute -bottom-8 -right-14 "
           >
             <Image
@@ -118,10 +118,10 @@ const Profile = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 20 }}
+            initial={{ y: 40 }}
             whileInView={{ y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.7 }}
             className="flex flex-col gap-2 items-center justify-center px-4"
           >
             <h2 className="titles text-2xl capitalize text-[#473727] ">

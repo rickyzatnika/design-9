@@ -34,10 +34,10 @@ const Gift = () => {
           <div className="flex flex-col gap-3 items-center justify-center">
             <div>
               <motion.h3
-                initial={{ y: -40, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
+                initial={{ x: -40 }}
+                whileInView={{ x: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.1 }}
+                transition={{ duration: 0.7 }}
                 className="text-2xl text-[#444337] alex"
               >
                 Share
@@ -47,11 +47,11 @@ const Gift = () => {
               </span>
             </div>
             <motion.p
-              initial={{ y: 40, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
+              initial={{ x: 40 }}
+              whileInView={{ x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-center brush text-sm text-stone-500/80 leading-relaxed"
+              transition={{ duration: 0.7 }}
+              className="text-center  text-sm text-stone-500/80 leading-relaxed"
             >
               Doa dan restu Anda pada pernikahan kami sudah cukup sebagai
               hadiah, tetapi jika Anda ingin memberikan lebih, kami senang
