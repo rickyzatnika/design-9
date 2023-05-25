@@ -91,7 +91,7 @@ const CommentForm = ({ guest }) => {
                 name=""
                 cols="30"
                 rows="10"
-                className="w-full p-4 text-sm brush focus:outline-stone-400 focus:border-none placeholder:italic rounded text-zinc-700 border-none  "
+                className="w-full p-4 text-sm focus:outline-stone-400 focus:border-none placeholder:italic rounded text-zinc-700 border-none  "
                 placeholder="Tulis Pesan ..."
                 {...register("comments", {
                   required: true,
