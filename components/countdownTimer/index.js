@@ -43,15 +43,16 @@ export default function CountDownTimer({ ...props }) {
   return (
     <>
       <div className="w-full flex flex-col item-center justify-center gap-4">
-        <motion.div
-          initial={{ y: -50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="linear"
           className="text-center flex flex-col pb-3 justify-center items-center shadow-xl mx-auto  w-32 sm:w-36  h-32 sm:h-36 bg-gradient-to-br from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
         >
           {/* Timer Days */}
-          <div className=" text-3xl sm:text-4xl m-auto  flex items-center justify-center">
+          <div
+
+            className=" text-3xl sm:text-4xl m-auto  flex items-center justify-center">
             <span className="text-stone-500 titles font-semibold">
               {timerDays}
             </span>
@@ -59,16 +60,15 @@ export default function CountDownTimer({ ...props }) {
           <small className="w-full  text-center text-stone-500 titles text-lg">
             Hari
           </small>
-        </motion.div>
+        </div>
         <div className="w-full px-1 gap-2 flex items-center justify-center h-full">
 
 
           {/* Timer Hours */}
-          <motion.div
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+          <div
+            data-aos="zoom-out-right"
+            data-aos-duration="1000"
+
             className="text-center rounded-tl-[30%] rounded-br-[40%] flex flex-col pb-2 shadow-xl   w-24 sm:w-28  h-24 sm:h-28 bg-gradient-to-br from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
           >
             <div className=" text-2xl sm:text-3xl m-auto  flex items-center justify-center">
@@ -79,13 +79,11 @@ export default function CountDownTimer({ ...props }) {
             <small className="w-full  text-center text-stone-500 titles   text-sm ">
               Jam
             </small>
-          </motion.div>
+          </div>
           {/* Timer Minutes */}
-          <motion.div
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1200"
             className="text-center rounded-tl-[30%] rounded-br-[40%] flex flex-col pb-2 shadow-xl  bg-gradient-to-br w-24 sm:w-28  h-24 sm:h-28 from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
           >
             <div className=" text-2xl sm:text-3xl m-auto  flex items-center justify-center">
@@ -96,13 +94,11 @@ export default function CountDownTimer({ ...props }) {
             <small className="w-full  text-center text-stone-500 titles   text-sm ">
               Menit
             </small>
-          </motion.div>
+          </div>
           {/* Timer Second */}
-          <motion.div
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.4 }}
+          <div
+            data-aos="zoom-out-left"
+            data-aos-duration="1000"
             className="text-center rounded-tl-[30%] rounded-br-[40%] flex flex-col pb-2 shadow-xl  bg-gradient-to-br w-24 sm:w-28  h-24 sm:h-28  from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
           >
             <div className=" text-2xl sm:text-3xl m-auto  flex items-center justify-center">
@@ -113,7 +109,7 @@ export default function CountDownTimer({ ...props }) {
             <small className="w-full  text-center text-stone-500 titles  text-sm ">
               Detik
             </small>
-          </motion.div>
+          </div>
         </div>
       </div>
     </>

@@ -19,7 +19,11 @@ const Wish = ({ guest, posts }) => {
               <span className="mb-1 text-md titles font-semibold leading-none text-stone-500/80">
                 WebQodes Digital Invitation
               </span>
-              <p className="mb-2 p-2 text-sm leading-relaxed lg:text-md  text-stone-400 ">
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="mb-2 p-2 text-sm leading-relaxed lg:text-md  text-stone-400 "
+              >
                 Happy wedding Rahmadi & Dinda, semoga menjadi keluarga yang
                 Sakinah, Mawadah & Warohmah.. Amiin ..
               </p>
@@ -30,7 +34,7 @@ const Wish = ({ guest, posts }) => {
           </ol>
 
           {posts?.map((post, i) => (
-            <ol key={i} className="border-[#6e664b] p-8  ">
+            <ol key={i} className="p-8  ">
               <li className="w-full border-b pb-4 border-stone-300">
                 <div className="absolute w-3 h-3 left-3 lg:left-8 ">
                   <FaUserCircle className="text-stone-600" size={24} />
@@ -39,7 +43,11 @@ const Wish = ({ guest, posts }) => {
                   {post?.name}
                 </span>
 
-                <p className="mb-4 p-2 text-sm leading-relaxed lg:text-md  text-stone-400 ">
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  className="mb-4 p-2 text-sm leading-relaxed lg:text-md  text-stone-400 "
+                >
                   {post?.comments}
                 </p>
 
@@ -47,11 +55,15 @@ const Wish = ({ guest, posts }) => {
               </li>
 
               {!post?.reply ? (
-                <span className="text-sm italic text-stone-400/80">
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  className="text-sm italic text-stone-400/80"
+                >
                   Belum ada balasan ...
-                </span>
+                </p>
               ) : (
-                <div className="bg-black/20 w-full h-auto py-10 pt-4 px-4 relative">
+                <div className="bg-stone-100/20 w-full h-auto py-10 pt-4 px-4 relative">
                   <h1 className="mb-2  text-sm text-stone-500/80">
                     Balasan dari Rahmadi & Dinda
                   </h1>

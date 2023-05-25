@@ -101,24 +101,29 @@ const Event = ({ guest }) => {
         className="absolute left-0 shadow-inner z-50 rotate-180 py-8 px-1 top-0 titles font-semibold tracking-widest bg-[#F5F5DC] shadow-stone-400 rounded-tl-3xl text-stone-700/60 text-xl"
         style={{ writingMode: "vertical-rl" }}
       >
-        SAVE THE DATE
+        <span className="w-full" data-aos="zoom-out" data-aos-duration="1000">
+          SAVE THE DATE
+        </span>
       </div>
       <div className=" w-full gap-8 pb-12 shadow-lg flex flex-col items-center justify-around relative z-40">
         <div className="w-full px-2">
           <CountDown />
         </div>
-        <AddToCalendarButton
-          name="The Wedding Rudy & Astrid"
-          options={["Google"]}
-          location="Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara, Berastagi, Indonesia"
-          startDate="2023-9-10"
-          startTime="10:15"
-          endTime="14:20"
-          timeZone="Asia/Jakarta"
-          buttonStyle="neumorphism"
-          lightMode="bodyScheme"
-          size="1"
-        ></AddToCalendarButton>
+        <div data-aos="fade-up" data-aos-duration="1500">
+          <AddToCalendarButton
+            name="The Wedding Rudy & Astrid"
+            options={["Google"]}
+            location="Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara, Berastagi, Indonesia"
+            startDate="2023-9-10"
+            startTime="10:15"
+            endTime="14:20"
+            timeZone="Asia/Jakarta"
+            buttonStyle="neumorphism"
+            lightMode="bodyScheme"
+            size="1"
+          ></AddToCalendarButton>
+        </div>
+
         <div className="flex flex-col gap-6 items-center justify-center"></div>
       </div>
       {guest && guest?.status === "Opened" ? (

@@ -56,19 +56,26 @@ const CommentForm = ({ guest }) => {
     <>
       <div
         id="wish"
-        className=" shadow-xl overflow-hidden pb-10  shadow-black/10 px-1 lg:px-3 relative bg-[#F5F5DC]"
+        className="overflow-hidden shadow-xl  pb-10  shadow-black/10 px-1 lg:px-3 relative bg-[#F5F5DC]"
       >
         <div className="absolute top-8  -right-12">
           <Image src="/img/bunga-2.png" alt="" width={200} height={175} objectFit="cover" />
         </div>
         <div className="pt-9 text-left">
-          <h3 className="text-2xl alex text-stone-500 ">
-            Pesan{" "}
-            <span className="titles text-4xl text-stone-500/80">
+          <div className="flex gap-2 items-center ">
+            <h3
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              className="text-2xl alex text-stone-500">Pesan</h3>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              className="titles text-4xl text-stone-500/80">
               &
-            </span>{" "}
-            Harapan
-          </h3>
+            </p>
+            <h3 data-aos="fade-left"
+              data-aos-duration="1500" className="text-2xl alex text-stone-500">Harapan</h3>
+          </div>
           <p className="text-stone-400/80 brush px-2 text-sm">
             Do`a dan ucapan terbaik untuk kami
           </p>

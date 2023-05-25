@@ -29,16 +29,30 @@ const Gift = () => {
   };
   return (
     <>
-      <div className="w-full min-h-3xl bg-[#f1f1df] pb-14 flex items-center pt-8 ">
+      <div className="w-full overflow-hidden min-h-3xl bg-[#f1f1df] pb-14 flex items-center pt-8 ">
         <div className=" w-[96%] mx-auto pt-4 pb-8 rounded-[50px] h-full lg:w-5/6 px-4 lg:px-12 shadow-lg bg-zinc-100 shadow-black/10 flex flex-col items-center justify-center">
           <div className="flex flex-col gap-3 items-center justify-center">
             <div>
-              <h3 className="text-2xl text-[#444337] alex">Share</h3>
-              <span className="font-[parisienne] relative left-4 text-5xl text-stone-500">
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className=" text-2xl text-[#444337] alex"
+              >
+                Share
+              </h3>
+              <p
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                className="font-[parisienne] relative left-4 text-5xl text-stone-500"
+              >
                 Love
-              </span>
+              </p>
             </div>
-            <p className="text-center  text-sm text-stone-500/80 leading-relaxed">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="text-center  text-sm text-stone-500/80 leading-relaxed"
+            >
               Doa dan restu Anda pada pernikahan kami sudah cukup sebagai
               hadiah, tetapi jika Anda ingin memberikan lebih, kami senang
               menerimanya dan itu akan melengkapi kebahagiaan kami bahkan lebih.
@@ -71,6 +85,8 @@ const Gift = () => {
               <div className="w-full h-full flex flex-col items-center justify-center">
                 <div className="flex items-center flex-col">
                   <Image
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
                     src="/image/bni.png"
                     alt=""
                     width={75}
@@ -79,10 +95,18 @@ const Gift = () => {
                     objectPosition="top"
                     priority
                   />
-                  <p className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider">
+                  <p
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                    className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
+                  >
                     Rudy Hardianto
                   </p>
-                  <p className="text-stone-500 text-sm sm:text-md  tracking-wide">
+                  <p
+                    data-aos="fade-right"
+                    data-aos-duration="1300"
+                    className="text-stone-500 text-sm sm:text-md  tracking-wide"
+                  >
                     NO.REK : 0123456789
                   </p>
                 </div>
@@ -118,6 +142,8 @@ const Gift = () => {
               <div className="w-full h-full flex flex-col items-center justify-center">
                 <div className="flex items-center flex-col">
                   <Image
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
                     src="/image/bca.png"
                     alt=""
                     width={100}
@@ -126,10 +152,18 @@ const Gift = () => {
                     objectPosition="top"
                     priority
                   />
-                  <p className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-duration="1200"
+                    className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
+                  >
                     astrid diah sari
                   </p>
-                  <p className="text-stone-500 text-sm sm:text-md  tracking-wide">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-duration="1300"
+                    className="text-stone-500 text-sm sm:text-md  tracking-wide"
+                  >
                     NO.REK : 012345678
                   </p>
                 </div>

@@ -46,10 +46,12 @@ const GetUniqueCode = ({ guest }) => {
   return (
     <>
       <BackSound setIsPlay={setIsPlay} isPlay={isPlay} />
-      <div className="overflow-hidden w-full bg-gradient-to-b from-[#F5F5DC] bg-cover min-h-screen z-50 fixed top-0 lg:relative flex flex-col gap-2  items-center justify-center pt-0 ">
-        <h1 className='mb-3 text-stone-600 titles'>UNDANGAN PERNIKAHAN</h1>
+      <div className="overflow-hidden w-full bg-gradient-to-b from-[#F5F5DC] bg-cover h-full z-50 fixed top-0 lg:relative flex flex-col gap-2  items-center justify-center pt-0 ">
+        <h1 data-aos="fade-up"
+          data-aos-duration="1000" className='mb-3 text-stone-600 titles'>UNDANGAN PERNIKAHAN</h1>
         <div className='flex items-center flex-col justify-center relative'>
-          <div className="absolute top-2 left-0 right-0 z-50 w-fit mx-auto flex text-stone-800/80 pt-1 gap-1 items-center">
+          <div data-aos="fade-down"
+            data-aos-duration="1000" className="absolute top-2 left-0 right-0 z-50 w-fit mx-auto flex text-stone-800/80 pt-1 gap-1 items-center">
             <h1 className='text-lg sm:text-xl '>Rudy</h1>
             <p className='font-[parisienne] text-4xl'>&</p>
             <h2 className='text-lg sm:text-xl '>Astrid</h2>
