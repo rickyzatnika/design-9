@@ -78,7 +78,7 @@ const CommentForm = ({ guest }) => {
               <h3 data-aos="fade-left"
                 data-aos-duration="1500" className="text-2xl alex text-stone-500">Harapan</h3>
             </div>
-            <p className="text-stone-400/80 brush px-2 text-xl">
+            <p className="text-stone-500/80 brush px-2 text-xl">
               Do`a dan ucapan terbaik untuk kami
             </p>
           </div>
