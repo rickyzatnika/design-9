@@ -48,17 +48,23 @@ const GetUniqueCode = ({ guest }) => {
       <BackSound setIsPlay={setIsPlay} isPlay={isPlay} />
       <AOSWrapper>
         <div className="overflow-hidden w-full bg-gradient-to-b from-[#F5F5DC] bg-cover h-full z-50 fixed top-0 lg:relative flex flex-col gap-2  items-center justify-center pt-0 ">
-          <h1 data-aos="fade-up"
-            data-aos-duration="1000" className='mb-3 text-stone-600 titles'>UNDANGAN PERNIKAHAN</h1>
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className='mb-3 text-stone-600 titles'>UNDANGAN PERNIKAHAN</h1>
           <div className='flex items-center flex-col justify-center relative'>
-            <div data-aos="fade-down"
-              data-aos-duration="1000" className="absolute top-2 left-0 right-0 z-50 w-fit mx-auto flex text-stone-800/80 pt-1 gap-1 items-center">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              className="absolute top-2 left-0 right-0 z-50 w-fit mx-auto flex text-stone-800/80 pt-1 gap-1 items-center">
               <h1 className='text-lg sm:text-xl '>Rudy</h1>
               <p className='font-[parisienne] text-4xl'>&</p>
               <h2 className='text-lg sm:text-xl '>Astrid</h2>
             </div>
-            <div data-aos="zoom-in"
-              data-aos-duration="1000" className=" border-2 border-stone-600/80 p-3 shadow-inner shadow-stone-500/80 relative">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              className=" border-2 border-stone-600/80 p-3 shadow-inner shadow-stone-500/80 relative">
               <div className='absolute w-full h-full bg-gradient-to-t top-0 z-40 left-0 from-[#FFE4B5]/60 via-transparent to-[#F5F5DC]/90' />
               <Image src="/img/gallery-4.png" alt="" width={240} height={340} className='' objectFit='contain' priority />
             </div>
@@ -68,8 +74,10 @@ const GetUniqueCode = ({ guest }) => {
             <div className=' w-full h-full absolute -bottom-14 -right-28 -z-10'>
               <Image src="/img/bunga-2.png" alt='bunga' width={450} objectFit='contain' height={375} priority />
             </div>
-            <div data-aos="fade-up"
-              data-aos-duration="1000" className='w-fit rounded-lg border px-8 py-3 sm:py-4 text-center leading-relaxed'>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className='w-fit rounded-lg border px-8 py-3 sm:py-4 text-center leading-relaxed'>
               <h4 className='mb-2 brush text-sm sm:text-md text-stone-500'>Kepada Yth, Bpk/Ibu/Saudara/i :</h4>
               <p className='py-2 text-2xl capitalize titles text-stone-600'>{guest?.name}</p>
               <p className='text-stone-500 text-sm sm:text-md brush'>Di Tempat.</p>

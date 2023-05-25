@@ -48,7 +48,7 @@ const Gallery = () => {
           >
             <Link href="/img/gallery/gallery-1.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-1.png"
@@ -57,7 +57,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-2.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1100"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-2.png"
@@ -66,7 +66,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-3.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1200"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-3.png"
@@ -75,7 +75,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-4.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1300"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-4.png"
@@ -85,7 +85,7 @@ const Gallery = () => {
 
             <Link href="/img/gallery/gallery-7.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1400"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-7.png"
@@ -94,7 +94,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-8.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1500"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-8.png"
@@ -103,7 +103,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-11.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1600"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-11.png"
@@ -113,7 +113,7 @@ const Gallery = () => {
 
             <Link href="/img/gallery/gallery-1.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1700"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-1.png"
@@ -122,7 +122,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-9.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1800"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-9.png"
@@ -132,7 +132,7 @@ const Gallery = () => {
 
             <Link href="/img/gallery/gallery-10.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="1900"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-10.png"
@@ -141,7 +141,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-2.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="2000"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-2.png"
@@ -151,7 +151,7 @@ const Gallery = () => {
 
             <Link href="/img/gallery/gallery-5.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="2100"
                 x
                 className="img-responsive mb-1"
@@ -161,7 +161,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-6.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="2200"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-6.png"
@@ -170,7 +170,7 @@ const Gallery = () => {
             </Link>
             <Link href="/img/gallery/gallery-12.png">
               <img
-                data-aos="flip-left"
+                data-aos="zoom-in-up"
                 data-aos-duration="2300"
                 className="img-responsive mb-1"
                 src="/img/gallery/gallery-12.png"
