@@ -10,7 +10,7 @@ import "animate.css";
 const Profile = () => {
   return (
     <div
-      className="w-full min-h-screen bg-[#f1f1df] flex flex-col items-center justify-center py-10 lg:justify-between relative "
+      className="w-full min-h-screen bg-[#f1f1df]  flex flex-col items-center justify-center py-10 lg:justify-between relative "
       id="profile"
     >
       {/* {showQrCode && <GetQrCode setShowQrCode={setShowQrCode} />} */}
@@ -27,7 +27,11 @@ const Profile = () => {
               className="bg-goyang"
             />
           </div>
-          <div className="relative overflow-hidden">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            className="relative overflow-hidden"
+          >
             <div className="absolute left-0 right-0 w-full h-full z-10 bg-gradient-to-t from-[#F5F5DC]/70 via-transparent to-[#F5F5DC]/70 " />
             <Image
               src="/img/man.png"
@@ -40,7 +44,11 @@ const Profile = () => {
           </div>
 
           <div className="animated-element flex flex-col gap-2 items-center justify-center px-4">
-            <h2 className="titles text-2xl text-[#473727] capitalize ">
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="titles text-2xl text-[#473727] capitalize "
+            >
               Rudy Hardianto
             </h2>
             <Link
@@ -55,14 +63,40 @@ const Profile = () => {
               />
             </Link>
             <div className="text-center text-[#9c8b7a] ">
-              <p className=" text-sm">Putra dari :</p>
-              <p className="alex text-lg">Bpk. Irawan Yusmiatna </p>
-              <p>&</p>
-              <p className="alex text-lg">Ibu Rosmini</p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="800"
+                className=" text-sm"
+              >
+                Putra dari :
+              </p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="900"
+                className="alex text-lg"
+              >
+                Bpk. Irawan Yusmiatna{" "}
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                &
+              </p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                className="alex text-lg"
+              >
+                Ibu Rosmini
+              </p>
             </div>
           </div>
         </div>
-        <div className="font-[parisienne] text-6xl my-3 text-stone-700 ">&</div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          className="font-[parisienne] text-6xl my-3 text-stone-700 "
+        >
+          &
+        </div>
         <div className="relative  overflow-hidden shadow-inner bg-[#F5F5DC] p-6 sm:p-8 px-10 sm:px-14 w-fit shadow-black/20  flex flex-col items-center justify-center gap-0">
           <div className="absolute -bottom-8 -right-14 ">
             <Image
@@ -74,7 +108,11 @@ const Profile = () => {
               className="bg-goyang "
             />
           </div>
-          <div className="relative overflow-hidden">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            className="relative overflow-hidden"
+          >
             <div className="absolute  left-0 right-0 w-full h-full z-10 bg-gradient-to-t from-[#F5F5DC]/70 via-transparent to-[#F5F5DC]/70" />
             <Image
               src="/img/girl.png"
@@ -88,7 +126,11 @@ const Profile = () => {
           </div>
 
           <div className="flex flex-col gap-2 items-center justify-center px-4">
-            <h2 className="titles text-2xl capitalize text-[#473727] ">
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="titles text-2xl capitalize text-[#473727] "
+            >
               astrid diah sari
             </h2>
             <Link
@@ -103,10 +145,30 @@ const Profile = () => {
               />
             </Link>
             <div className="text-center text-[#9c8b7a]">
-              <p className=" text-sm">Putra dari :</p>
-              <p className="alex text-lg">Bpk. Irawan Yusmiatna </p>
-              <p>&</p>
-              <p className="alex text-lg">Ibu Rosmini</p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="800"
+                className=" text-sm"
+              >
+                Putra dari :
+              </p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="900"
+                className="alex text-lg"
+              >
+                Bpk. Irawan Yusmiatna{" "}
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                &
+              </p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                className="alex text-lg"
+              >
+                Ibu Rosmini
+              </p>
             </div>
           </div>
         </div>

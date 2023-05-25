@@ -17,7 +17,7 @@ const Gallery = () => {
     <>
       <div
         id="gallery"
-        className="w-full bg-[#F5F5DC] min-h-3xl pt-6 pb-8 relative"
+        className="w-full bg-[#F5F5DC] min-h-3xl p-0 md:p-14  relative"
       >
         <div className="text-center w-full py-4 leading-relaxed">
           <div className="flex items-center justify-center text-[#705740] text-xl sm:text-2xl">
@@ -33,7 +33,7 @@ const Gallery = () => {
           addClass={true}
           closeOnTap={true}
           isMobile
-          elementClassNames="w-full  mx-auto columns-4 gap-1 px-3 py-4 group "
+          elementClassNames="w-full columns-4 gap-1 px-3 py-4 group "
         >
           <Link href="/img/gallery/gallery-1.png">
             <img

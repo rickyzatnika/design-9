@@ -54,7 +54,8 @@ const GetUniqueCode = ({ guest }) => {
             <p className='font-[parisienne] text-4xl'>&</p>
             <h2 className='text-lg sm:text-xl '>Astrid</h2>
           </div>
-          <div className=" border-2 border-stone-600/80 p-3 shadow-inner shadow-stone-500/80 relative">
+          <div data-aos="zoom-in"
+            data-aos-duration="1000" className=" border-2 border-stone-600/80 p-3 shadow-inner shadow-stone-500/80 relative">
             <div className='absolute w-full h-full bg-gradient-to-t top-0 z-40 left-0 from-[#FFE4B5]/60 via-transparent to-[#F5F5DC]/90' />
             <Image src="/img/gallery-4.png" alt="" width={240} height={340} className='' objectFit='contain' priority />
           </div>
@@ -64,12 +65,13 @@ const GetUniqueCode = ({ guest }) => {
           <div className=' w-full h-full absolute -bottom-14 -right-28 -z-10'>
             <Image src="/img/bunga-2.png" alt='bunga' width={450} objectFit='contain' height={375} priority />
           </div>
-          <div className='w-fit rounded-lg border px-8 py-3 sm:py-4 text-center leading-relaxed'>
+          <div data-aos="fade-up"
+            data-aos-duration="1000" className='w-fit rounded-lg border px-8 py-3 sm:py-4 text-center leading-relaxed'>
             <h4 className='mb-2 brush text-sm sm:text-md text-stone-500'>Kepada Yth, Bpk/Ibu/Saudara/i :</h4>
             <p className='py-2 text-2xl capitalize titles text-stone-600'>{guest?.name}</p>
             <p className='text-stone-500 text-sm sm:text-md brush'>Di Tempat.</p>
           </div>
-          <form className='w-fit items-center justify-center flex flex-col' onSubmit={handleSubmit(formSubmit)}>
+          <form data-aos="zoom-out-up" className='w-fit items-center justify-center flex flex-col' onSubmit={handleSubmit(formSubmit)}>
             <input
               type="text"
               onChange={() => handleClick("Opened")}

@@ -6,7 +6,7 @@ const Invitation = () => {
   return (
     <div
       id="event"
-      className="w-full bg-[#F5F5DC] px-4 h-auto flex items-center pt-28 flex-col py-5 justify-evenly relative"
+      className="w-full bg-[#F5F5DC] px-4  flex items-center pt-28 flex-col py-5 justify-evenly relative"
     >
       <div className="absolute top-0 left-0 right-0 w-full z-20">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -39,7 +39,7 @@ const Invitation = () => {
         />
       </div> */}
 
-      <div className="flex flex-col items-center py-6  justify-center bg-white rounded shadow-lg shadow-stone-400/50">
+      <div className="flex flex-col items-center py-6 mt-6 justify-center bg-white rounded shadow-lg shadow-stone-400/50">
         <div className="flex flex-col items-center justify-center gap-4 w-full">
           <div className="w-[60%] rounded-t-full border-4 border-stone-700/80  shadow-inner  text-center flex flex-col items-center gap-2  p-8 leading-relaxed">
             <h3 className="text-stone-800 titles text-2xl ">Akad Nikah</h3>

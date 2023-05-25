@@ -58,7 +58,7 @@ const Navbar = () => {
     <nav
       className={
         activeSection && document.querySelector(`#${activeSection}`)
-          ? "w-fit opacity-100  scale-100 flex flex-col fixed top-90 right-96 z-50 sm:right-[450px] md:right-[460px] lg:right-[460px]  transition-all duration-300 ease-linear"
+          ? "w-fit opacity-100  scale-100 flex flex-col fixed  right-96 top-64  z-50  md:right-[420px] lg:right-[550px]  transition-all duration-300 ease-linear"
           : "scale-0 opacity-0 transition-all duration-300 ease-linear"
       }
     >

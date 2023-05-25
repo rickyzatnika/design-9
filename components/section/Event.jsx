@@ -89,7 +89,7 @@ const Event = ({ guest }) => {
     return () => {
       observer.disconnect();
     };
-  }, [displayed, guest.status]);
+  }, [displayed]);
 
   return (
     <div
