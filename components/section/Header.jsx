@@ -30,7 +30,7 @@ const Header = () => {
         <div className="w-full h-full relative z-20 flex flex-col items-center space-y-8 justify-between">
           <motion.h1
             initial={{ y: -50 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
             className="text-stone-200/80 titles tracking-widest text-xl sm:text-xl"
@@ -40,7 +40,7 @@ const Header = () => {
           <div className="text-center leading-relaxed py-4">
             <motion.h3
               initial={{ y: 50 }}
-              whileInView={{ y: 0 }}
+              animate={{ y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
               className="text-5xl  px-2 font-semibold bg-gradient-to-r from-stone-500  via-[#b4b49a] font-[parisienne] to-stone-500 bg-clip-text text-transparent py-2 "
@@ -49,7 +49,7 @@ const Header = () => {
             </motion.h3>
             <motion.p
               initial={{ scale: 2 }}
-              whileInView={{ scale: 1 }}
+              animate={{ scale: 1 }}
               transition={{ duration: 0.7 }}
               viewport={{ once: true }}
               className="font-[parisienne] text-6xl text-stone-400"
@@ -58,7 +58,7 @@ const Header = () => {
             </motion.p>
             <motion.h4
               initial={{ y: -50 }}
-              whileInView={{ y: 0 }}
+              animate={{ y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
               className="text-5xl   px-2 font-semibold bg-gradient-to-r from-stone-500  via-[#b4b49a] font-[parisienne] to-stone-500  bg-clip-text text-transparent py-2"
@@ -68,7 +68,7 @@ const Header = () => {
           </div>
           <motion.div
             initial={{ y: 50 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.7 }}
             className="flex flex-col relative z-50 items-center gap-1 justify-center"
           >

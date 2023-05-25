@@ -14,6 +14,7 @@ const CommentForm = ({ guest }) => {
   const { uuid } = router.query;
 
   const formSubmit = async ({ comments }) => {
+    const userId = guest?.userId;
     await axios
       .patch(`${process.env.NEXT_PUBLIC_PRO_URI}/invitation/comment/${uuid}`, {
         comments: comments,
@@ -36,10 +37,8 @@ const CommentForm = ({ guest }) => {
           }),
             reset();
           setLoading(false);
-          location.reload(
-            router.push(`/invitation/${guest.unique_Code}/#wish`)
-          );
-        }, 3000);
+          location.reload();
+        }, 400);
         return () => clearTimeout();
       })
       .catch((error) => {

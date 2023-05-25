@@ -26,7 +26,7 @@ const ShowProtocol = () => {
     <>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{
           duration: 0.8,
@@ -38,7 +38,7 @@ const ShowProtocol = () => {
           <div className="text-md w-full   text-center ">
             <motion.h1
               initial={{ y: 120 }}
-              whileInView={{ y: 0 }}
+              animate={{ y: 0 }}
               transition={{ duration: 0.6 }}
               className=" text-zinc-200 tracking-widest px-4 py-1 bg- w-fit mx-auto bg-[#524446] rounded-full"
             >
@@ -46,7 +46,7 @@ const ShowProtocol = () => {
             </motion.h1>
             <motion.p
               initial={{ y: -90 }}
-              whileInView={{ y: 0 }}
+              animate={{ y: 0 }}
               transition={{ duration: 0.6 }}
               className="text-stone-500"
             >
@@ -57,7 +57,7 @@ const ShowProtocol = () => {
             {images.map((image) => (
               <motion.div
                 initial={{ y: 60 }}
-                whileInView={{ y: 0 }}
+                animate={{ y: 0 }}
                 transition={{ duration: 0.6 }}
                 key={image.id}
                 className=" w-full h-full col-span-1 "

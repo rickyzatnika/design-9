@@ -23,7 +23,7 @@ const Gallery = () => {
           <div className="flex items-center justify-center text-[#705740] text-xl sm:text-2xl">
             <motion.span
               initial={{ x: 80 }}
-              whileInView={{ x: 0 }}
+              animate={{ x: 0 }}
               transition={{ duration: 0.7 }}
               className="p-1 text-3xl alex border-b border-stone-500/50 "
             >
@@ -31,7 +31,7 @@ const Gallery = () => {
             </motion.span>{" "}
             <motion.span
               initial={{ x: -120 }}
-              whileInView={{ x: 0 }}
+              animate={{ x: 0 }}
               transition={{ duration: 0.4 }}
               className="alex text-5xl"
             >

@@ -47,7 +47,7 @@ const Story = () => {
           </div>
           <motion.span
             initial={{ x: 80 }}
-            whileInView={{ x: 0 }}
+            animate={{ x: 0 }}
             transition={{ duration: 0.8 }}
             className="p-1 text-3xl alex border-b border-stone-500/50 "
           >
@@ -55,7 +55,7 @@ const Story = () => {
           </motion.span>{" "}
           <motion.span
             initial={{ x: -120 }}
-            whileInView={{ x: 0 }}
+            animate={{ x: 0 }}
             transition={{ duration: 0.6 }}
             className="alex text-5xl"
           >
@@ -71,7 +71,7 @@ const Story = () => {
             >
               <motion.div
                 initial={{ y: 40 }}
-                whileInView={{ y: 0 }}
+                animate={{ y: 0 }}
                 transition={{ duration: 0.6 }}
                 className="img relative"
               >
@@ -89,7 +89,7 @@ const Story = () => {
                 <div className="title space-y-2 leading-relaxed">
                   <motion.h1
                     initial={{ y: 40 }}
-                    whileInView={{ y: 0 }}
+                    animate={{ y: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                     className="text-xl titles font-semibold text-stone-500/80"
@@ -98,7 +98,7 @@ const Story = () => {
                   </motion.h1>
                   <motion.p
                     initial={{ y: 50 }}
-                    whileInView={{ y: 0 }}
+                    animate={{ y: 0 }}
                     transition={{ duration: 0.6 }}
                     className="text-stone-500/70  leading-relaxed text-sm"
                   >

@@ -35,7 +35,7 @@ const Gift = () => {
             <div>
               <motion.h3
                 initial={{ x: -40 }}
-                whileInView={{ x: 0 }}
+                animate={{ x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7 }}
                 className="text-2xl text-[#444337] alex"
@@ -48,7 +48,7 @@ const Gift = () => {
             </div>
             <motion.p
               initial={{ x: 40 }}
-              whileInView={{ x: 0 }}
+              animate={{ x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               className="text-center  text-sm text-stone-500/80 leading-relaxed"
@@ -95,7 +95,7 @@ const Gift = () => {
                   />
                   <motion.p
                     initial={{ y: 40, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
+                    animate={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: 0.1 }}
                     className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
@@ -104,7 +104,7 @@ const Gift = () => {
                   </motion.p>
                   <motion.p
                     initial={{ y: 40, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
+                    animate={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className="text-stone-500 text-sm sm:text-md  tracking-wide"
@@ -154,7 +154,7 @@ const Gift = () => {
                   />
                   <motion.p
                     initial={{ y: 40, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
+                    animate={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: 0.1 }}
                     className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
@@ -163,7 +163,7 @@ const Gift = () => {
                   </motion.p>
                   <motion.p
                     initial={{ y: 40, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
+                    animate={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className="text-stone-500 text-sm sm:text-md  tracking-wide"

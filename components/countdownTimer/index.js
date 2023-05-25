@@ -45,7 +45,7 @@ export default function CountDownTimer({ ...props }) {
       <div className="w-full flex flex-col item-center justify-center gap-4">
         <motion.div
           initial={{ y: -50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          animate={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="text-center flex flex-col pb-3 justify-center items-center shadow-xl mx-auto  w-32 sm:w-36  h-32 sm:h-36 bg-gradient-to-br from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
@@ -66,7 +66,7 @@ export default function CountDownTimer({ ...props }) {
           {/* Timer Hours */}
           <motion.div
             initial={{ y: 50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
             className="text-center rounded-tl-[30%] rounded-br-[40%] flex flex-col pb-2 shadow-xl   w-24 sm:w-28  h-24 sm:h-28 bg-gradient-to-br from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
@@ -83,7 +83,7 @@ export default function CountDownTimer({ ...props }) {
           {/* Timer Minutes */}
           <motion.div
             initial={{ y: 50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
             className="text-center rounded-tl-[30%] rounded-br-[40%] flex flex-col pb-2 shadow-xl  bg-gradient-to-br w-24 sm:w-28  h-24 sm:h-28 from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"
@@ -100,7 +100,7 @@ export default function CountDownTimer({ ...props }) {
           {/* Timer Second */}
           <motion.div
             initial={{ y: 50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
             className="text-center rounded-tl-[30%] rounded-br-[40%] flex flex-col pb-2 shadow-xl  bg-gradient-to-br w-24 sm:w-28  h-24 sm:h-28  from-stone-800/10 via-zinc-50 to-stone-900/10 overflow-hidden  clip"

@@ -36,8 +36,15 @@ const Event = ({ guest }) => {
         const timeoutId = setTimeout(() => {
           Swal.fire({
             text: "Terima Kasih Atas Perhatiannya 😊",
-            showConfirmButton: true,
+            showConfirmButton: false,
+            showClass: {
+              popup: "animate__animated animate__zoomIn",
+            },
+            hideClass: {
+              popup: "animate__animated animate__fadeOut",
+            },
           });
+
           setLoading(false);
           setShowAttend(false);
         }, 2000);
@@ -46,7 +53,13 @@ const Event = ({ guest }) => {
         const timeoutId = setTimeout(() => {
           Swal.fire({
             text: "Terima Kasih Atas Perhatiannya 😊",
-            showConfirmButton: true,
+            showConfirmButton: false,
+            showClass: {
+              popup: "animate__animated animate__zoomIn",
+            },
+            hideClass: {
+              popup: "animate__animated animate__fadeOut",
+            },
           });
           setLoading(false);
           setShowAttend(false);

@@ -59,7 +59,7 @@ const Invitation = () => {
           </div>
           <motion.h2
             initial={{ y: -50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             className="w-full text-3xl  text-[#503e2d] my-4 font-[parisienne] relative  z-50 text-center"

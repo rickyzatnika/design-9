@@ -27,8 +27,9 @@ const GetUniqueCode = ({ guest }) => {
       setLoading(true);
       const timeoutId = setTimeout(() => {
         router.push(`/invitation/${uuid}?userId=${userId}`);
+
         setIsPlay(true);
-      }, 2000)
+      }, 500)
 
       return () => clearTimeout(timeoutId);
 
@@ -89,7 +90,7 @@ const GetUniqueCode = ({ guest }) => {
                 {loading === true ? <button
                   onClick={() => handleClick("Opened")}
                   type="submit"
-                  className="py-2 text-sm  flex items-center gap-1 cursor-pointer px-3 shadow-lg rounded shadow-black/20 text-stone-600 hover:text-stone-700 bg-[#FFE4B5]/70  hover:bg-[#FFE4B5]/90 "
+                  className="py-2 text-sm  flex items-center gap-1 cursor-pointer px-3 shadow-lg rounded shadow-black/20 text-stone-600/80 hover:text-stone-700 bg-[#FFE4B5]/70  hover:bg-[#FFE4B5]/90 "
                 >
 
                   sedang memuat...
@@ -108,7 +109,7 @@ const GetUniqueCode = ({ guest }) => {
                 {loading === true ? <button
                   onClick={() => handleClick("Opened")}
                   type="submit"
-                  className="py-2 text-sm  flex items-center gap-1 cursor-pointer px-3 shadow-lg rounded shadow-black/20 text-stone-600 hover:text-stone-700 bg-[#FFE4B5]/70  hover:bg-[#FFE4B5]/90 "
+                  className="py-2 text-sm  flex items-center gap-1 cursor-pointer px-3 shadow-lg rounded shadow-black/20 text-stone-600/80 hover:text-stone-700 bg-[#FFE4B5]/70  hover:bg-[#FFE4B5]/90 "
                 >
 
                   sedang memuat...

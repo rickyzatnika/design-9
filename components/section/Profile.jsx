@@ -19,7 +19,7 @@ const Profile = () => {
         <div className="flex shadow-inner overflow-hidden w-fit bg-[#F5F5DC] p-6 sm:p-8 px-10 sm:px-14 shadow-black/20 flex-col justify-center gap-0 items-center relative mx-auto">
           <motion.div
             initial={{ y: 40 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             className="animated-element absolute -bottom-8 -left-12 w-full"
@@ -35,7 +35,7 @@ const Profile = () => {
           </motion.div>
           <motion.div
             initial={{ y: 60 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="relative overflow-hidden"
@@ -53,7 +53,7 @@ const Profile = () => {
 
           <motion.div
             initial={{ y: 50 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             className="animated-element flex flex-col gap-2 items-center justify-center px-4"
@@ -84,7 +84,7 @@ const Profile = () => {
         <div className="relative  overflow-hidden shadow-inner bg-[#F5F5DC] p-6 sm:p-8 px-10 sm:px-14 w-fit shadow-black/20  flex flex-col items-center justify-center gap-0">
           <motion.div
             initial={{ y: 40 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="absolute -bottom-8 -right-14 "
@@ -100,7 +100,7 @@ const Profile = () => {
           </motion.div>
           <motion.div
             initial={{ y: 30 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="relative overflow-hidden"
@@ -119,7 +119,7 @@ const Profile = () => {
 
           <motion.div
             initial={{ y: 40 }}
-            whileInView={{ y: 0 }}
+            animate={{ y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             className="flex flex-col gap-2 items-center justify-center px-4"

@@ -20,6 +20,7 @@ const GuestInvitation = ({ guest, posts }) => {
 
   const [isPlay, setIsPlay] = useState(true);
 
+
   return (
     <>
       <BackSound isPlay={isPlay} setIsPlay={setIsPlay} />
@@ -84,7 +85,7 @@ export const getServerSideProps = async ({ params, query }) => {
     props: {
       guest,
       posts,
-      revalidate: 1
+
     },
   };
 };
