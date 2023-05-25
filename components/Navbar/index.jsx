@@ -74,7 +74,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className={
               activeSection === "header"
-                ? "block left-6 text-xs absolute text-stone-200 brush  bg-stone-400/70  p-1 px-2 rounded-full"
+                ? "block left-6 text-xs absolute text-stone-200  bg-stone-400/70  p-1 px-2 rounded-full"
                 : "hidden opacity-0 left-0 absolute bg-zinc-200/80 px-2 rounded-full "
             }
           >
@@ -99,7 +99,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className={
               activeSection === "profile"
-                ? "block left-6 text-xs absolute text-stone-200 brush  bg-stone-400/70  p-1 px-2 rounded-full"
+                ? "block left-6 text-xs absolute text-stone-200   bg-stone-400/70  p-1 px-2 rounded-full"
                 : "hidden opacity-0 left-0 absolute bg-zinc-200/80 px-2 rounded-full "
             }
           >
@@ -124,7 +124,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className={
               activeSection === "event"
-                ? "block left-6 text-xs absolute text-stone-200 brush  bg-stone-400/70  p-1 px-2 rounded-full"
+                ? "block left-6 text-xs absolute text-stone-200  bg-stone-400/70  p-1 px-2 rounded-full"
                 : "hidden  opacity-0 left-0 absolute bg-zinc-200/80 px-2 rounded-full "
             }
           >
@@ -149,7 +149,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className={
               activeSection === "gallery"
-                ? "block left-6 text-xs absolute text-stone-200 brush  bg-stone-400/70  p-1 px-2 rounded-full"
+                ? "block left-6 text-xs absolute text-stone-200  bg-stone-400/70  p-1 px-2 rounded-full"
                 : "hidden  opacity-0 left-0 absolute bg-zinc-200/80 px-2 rounded-full "
             }
           >
@@ -175,7 +175,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className={
               activeSection === "wish"
-                ? "block left-6 text-xs absolute text-stone-200 brush  bg-stone-400/70  p-1 px-2 rounded-full"
+                ? "block left-6 text-xs absolute text-stone-200  bg-stone-400/70  p-1 px-2 rounded-full"
                 : "hidden  opacity-0 left-0 absolute bg-zinc-200/80 px-2 rounded-full "
             }
           >
