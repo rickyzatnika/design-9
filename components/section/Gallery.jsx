@@ -21,23 +21,10 @@ const Gallery = () => {
       >
         <div className="text-center w-full py-4 leading-relaxed">
           <div className="flex items-center justify-center text-[#705740] text-xl sm:text-2xl">
-            <motion.span
-              initial={{ x: 80 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.7 }}
-              className="p-1 text-3xl alex border-b border-stone-500/50 "
-            >
+            <span className="p-1 text-3xl alex border-b border-stone-500/50 ">
               Happiness
-            </motion.span>{" "}
-            <motion.span
-              initial={{ x: -120 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.4 }}
-              className="alex text-5xl"
-            >
-              {" "}
-              Moments
-            </motion.span>
+            </span>{" "}
+            <span className="alex text-5xl"> Moments</span>
           </div>
         </div>
         <LightGallery

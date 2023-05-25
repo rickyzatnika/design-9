@@ -33,30 +33,16 @@ const Gift = () => {
         <div className=" w-[96%] mx-auto pt-4 pb-8 rounded-[50px] h-full lg:w-5/6 px-4 lg:px-12 shadow-lg bg-zinc-100 shadow-black/10 flex flex-col items-center justify-center">
           <div className="flex flex-col gap-3 items-center justify-center">
             <div>
-              <motion.h3
-                initial={{ x: -40 }}
-                animate={{ x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7 }}
-                className="text-2xl text-[#444337] alex"
-              >
-                Share
-              </motion.h3>
+              <h3 className="text-2xl text-[#444337] alex">Share</h3>
               <span className="font-[parisienne] relative left-4 text-5xl text-stone-500">
                 Love
               </span>
             </div>
-            <motion.p
-              initial={{ x: 40 }}
-              animate={{ x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
-              className="text-center  text-sm text-stone-500/80 leading-relaxed"
-            >
+            <p className="text-center  text-sm text-stone-500/80 leading-relaxed">
               Doa dan restu Anda pada pernikahan kami sudah cukup sebagai
               hadiah, tetapi jika Anda ingin memberikan lebih, kami senang
               menerimanya dan itu akan melengkapi kebahagiaan kami bahkan lebih.
-            </motion.p>
+            </p>
           </div>
           <div className="flex gap-3 pt-6">
             <button
@@ -93,24 +79,12 @@ const Gift = () => {
                     objectPosition="top"
                     priority
                   />
-                  <motion.p
-                    initial={{ y: 40, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: 0.1 }}
-                    className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
-                  >
+                  <p className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider">
                     Rudy Hardianto
-                  </motion.p>
-                  <motion.p
-                    initial={{ y: 40, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.1 }}
-                    className="text-stone-500 text-sm sm:text-md  tracking-wide"
-                  >
+                  </p>
+                  <p className="text-stone-500 text-sm sm:text-md  tracking-wide">
                     NO.REK : 0123456789
-                  </motion.p>
+                  </p>
                 </div>
                 {copyText === true ? (
                   <button
@@ -152,24 +126,12 @@ const Gift = () => {
                     objectPosition="top"
                     priority
                   />
-                  <motion.p
-                    initial={{ y: 40, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: 0.1 }}
-                    className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
-                  >
+                  <p className="text-stone-600 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider">
                     astrid diah sari
-                  </motion.p>
-                  <motion.p
-                    initial={{ y: 40, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.1 }}
-                    className="text-stone-500 text-sm sm:text-md  tracking-wide"
-                  >
+                  </p>
+                  <p className="text-stone-500 text-sm sm:text-md  tracking-wide">
                     NO.REK : 012345678
-                  </motion.p>
+                  </p>
                 </div>
                 {copyText === true ? (
                   <button

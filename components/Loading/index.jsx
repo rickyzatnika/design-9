@@ -14,7 +14,7 @@ function Loading() {
       url === router.asPath &&
       setTimeout(() => {
         setLoading(false);
-      }, 500);
+      }, 300);
     router.events.on("routeChangeStart", handleStart);
     router.events.on("routeChangeComplete", handleComplete);
     router.events.on("routeChangeError", handleComplete);
@@ -28,11 +28,11 @@ function Loading() {
 
   return (
     loading && (
-      <div className="relative w-full bg-[#FFE4B5]/50 min-h-screen z-[9999] transition-all items-center text-center justify-center duration-200 ease-linear grid grid-cols-12 bottom-0 left-0 ">
+      <div className="relative w-full bg-[#F5F5DC] min-h-screen z-[9999] transition-all items-center text-center justify-center duration-200 ease-linear grid grid-cols-12 bottom-0 left-0 ">
         <motion.div
           initial={{ scale: 2, opacity: 1 }}
           animate={{ scale: 0.7, opacity: 0.5 }}
-          transition={{ duration: 0.9, delay: 0.2 }}
+          transition={{ duration: 0.9 }}
           className="absolute top-0 right-0"
         >
           <Image
@@ -47,7 +47,7 @@ function Loading() {
         <motion.h1
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1.1, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
           className="text-xl alex w-full h-screen flex items-center justify-center absolute left-0 top-0 right-0 text-center invitation text-stone-700"
         >
           Terima Kasih
@@ -55,14 +55,14 @@ function Loading() {
         <motion.div
           initial={{ height: 400, opacity: 0.5 }}
           animate={{ height: 0 }}
-          transition={{ duration: 1, delay: 0.1 }}
+          transition={{ duration: 1 }}
           className="col-span-6 bg-amber-900/80   w-full  absolute left-0 top-0 "
         ></motion.div>
 
         <motion.div
           initial={{ height: 400, opacity: 0.5 }}
           animate={{ height: 0 }}
-          transition={{ duration: 0.9, delay: 0.1 }}
+          transition={{ duration: 0.9 }}
           className="col-span-6 bg-amber-400/50  w-full h-full absolute bottom-0 right-0"
         ></motion.div>
       </div>

@@ -45,23 +45,10 @@ const Story = () => {
               priority
             />
           </div>
-          <motion.span
-            initial={{ x: 80 }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="p-1 text-3xl alex border-b border-stone-500/50 "
-          >
+          <span className="p-1 text-3xl alex border-b border-stone-500/50 ">
             Short
-          </motion.span>{" "}
-          <motion.span
-            initial={{ x: -120 }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="alex text-5xl"
-          >
-            {" "}
-            Story
-          </motion.span>
+          </span>
+          <span className="alex text-5xl"> Story</span>
         </div>
         <div className="posts overflow-hidden  pt-14 flex flex-wrap-reverse flex-col gap-10 md:gap-12">
           {data?.map((post, i) => (
@@ -69,12 +56,7 @@ const Story = () => {
               className="post flex flex-wrap-reverse flex-col-reverse sm:flex-row gap-3 "
               key={i}
             >
-              <motion.div
-                initial={{ y: 40 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="img relative"
-              >
+              <div className="img relative">
                 <Image
                   src={post?.image}
                   alt={post?.title}
@@ -84,26 +66,15 @@ const Story = () => {
                   className="rounded-tl-3xl rounded-br-3xl"
                   priority
                 />
-              </motion.div>
+              </div>
               <div className="content flex flex-col justify-around items-start gap-4">
                 <div className="title space-y-2 leading-relaxed">
-                  <motion.h1
-                    initial={{ y: 40 }}
-                    animate={{ y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
-                    className="text-xl titles font-semibold text-stone-500/80"
-                  >
+                  <h1 className="text-xl titles font-semibold text-stone-500/80">
                     {post?.title}
-                  </motion.h1>
-                  <motion.p
-                    initial={{ y: 50 }}
-                    animate={{ y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    className="text-stone-500/70  leading-relaxed text-sm"
-                  >
+                  </h1>
+                  <p className="text-stone-500/70  leading-relaxed text-sm">
                     {post?.description}
-                  </motion.p>
+                  </p>
                 </div>
               </div>
             </div>

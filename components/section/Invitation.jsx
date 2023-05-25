@@ -57,15 +57,9 @@ const Invitation = () => {
               08.00 WIB s/d Selesai
             </p>
           </div>
-          <motion.h2
-            initial={{ y: -50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-            className="w-full text-3xl  text-[#503e2d] my-4 font-[parisienne] relative  z-50 text-center"
-          >
+          <h2 className="w-full text-3xl  text-[#503e2d] my-4 font-[parisienne] relative  z-50 text-center">
             10 September 2023
-          </motion.h2>
+          </h2>
           <div className="w-[60%] rounded-b-full border-4 border-stone-700/80 shadow-inner  text-center flex flex-col-reverse items-center gap-2  p-8 leading-relaxed">
             <h3 className="text-stone-800 titles text-2xl ">Resepsi</h3>
             <Image
