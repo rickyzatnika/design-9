@@ -74,7 +74,7 @@ const GetUniqueCode = ({ guest }) => {
               <p className='py-2 text-2xl capitalize titles text-stone-600'>{guest?.name}</p>
               <p className='text-stone-500 text-sm sm:text-md brush'>Di Tempat.</p>
             </div>
-            <form data-aos="zoom-out-up" className='w-fit items-center justify-center flex flex-col' onSubmit={handleSubmit(formSubmit)}>
+            <form className='w-fit items-center justify-center flex flex-col' onSubmit={handleSubmit(formSubmit)}>
               <input
                 type="text"
                 onChange={() => handleClick("Opened")}
