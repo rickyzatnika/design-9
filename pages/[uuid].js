@@ -77,10 +77,10 @@ const GetUniqueCode = ({ guest }) => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              className='w-fit rounded-lg border px-8 py-3 sm:py-4 text-center leading-relaxed'>
-              <h4 className='mb-2 brush text-sm sm:text-md text-stone-500'>Kepada Yth, Bpk/Ibu/Saudara/i :</h4>
+              className='w-fit rounded-lg mt-3 border px-8 py-3 sm:py-4 text-center leading-relaxed'>
+              <h4 className='mb-2 brush text-lg text-stone-500'>Kepada Yth, Bpk/Ibu/Saudara/i :</h4>
               <p className='py-2 text-2xl capitalize titles text-stone-600'>{guest?.name}</p>
-              <p className='text-stone-500 text-sm sm:text-md brush'>Di Tempat.</p>
+              <p className='text-stone-500 text-lg brush'>Di Tempat.</p>
             </div>
             <form className='w-fit items-center justify-center flex flex-col' onSubmit={handleSubmit(formSubmit)}>
               <input
